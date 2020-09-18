@@ -1,0 +1,7 @@
+{
+  "name": "app-fiap-ionic-ali-moussa",
+  "integrations": {
+    "capacitor": {}
+  },
+  "type": "angular"
+}
