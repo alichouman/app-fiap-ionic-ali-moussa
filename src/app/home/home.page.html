@@ -1,20 +1,191 @@
-<ion-header [translucent]="true">
-  <ion-toolbar>
-    <ion-title>
-      Blank
-    </ion-title>
-  </ion-toolbar>
-</ion-header>
-
-<ion-content [fullscreen]="true">
-  <ion-header collapse="condense">
+<ion-app>
+  <ion-header>
     <ion-toolbar>
-      <ion-title size="large">Blank</ion-title>
+      <ion-chip>
+        <ion-label>Entrega</ion-label>
+      </ion-chip>
+      <ion-chip>
+        <ion-label>Retirada</ion-label>
+      </ion-chip>
+      <ion-chip color="danger">
+        <ion-label>Cozinha</ion-label>
+      </ion-chip>
+      <ion-icon name="qr-code-outline" slot="end" style="zoom:1.5;"></ion-icon>
     </ion-toolbar>
   </ion-header>
 
-  <div id="container">
-    <strong>Ready to create an app?</strong>
-    <p>Start with Ionic <a target="_blank" rel="noopener noreferrer" href="https://ionicframework.com/docs/components">UI Components</a></p>
-  </div>
-</ion-content>
+
+
+  <ion-content fullscreen="true">
+
+    <ion-title>Restaurantes</ion-title>
+    <ion-card (click)="showPageBurgerKing()">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="../assets/images/burgerKing.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2>Burger King</h2>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <h3>Lanches</h3>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card (click)="showPageChinaInBox()">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="../assets/images/chinaInBox.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2>China In Box</h2>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <h3>Chinesa</h3>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card (click)="showPageDominos()">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="../assets/images/dominos.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2>Domino's</h2>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <h3>Pizzas</h3>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card (click)="showPageGriletto()">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="../assets/images/griletto.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2>Griletto</h2>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <h3>Comida Brasileira</h3>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card (click)="showPageHabibs()">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="../assets/images/habibs.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2>Habib's</h2>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <h3>Comida Árabe</h3>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card (click)="showPageJonnyRockets()">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="../assets/images/jonnyRockets.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2>Johnny Rockets</h2>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <h3>Lanches</h3>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card (click)="showPagePadariaReal()">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="../assets/images/padariaReal.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2>Real</h2>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <h3>Padaria</h3>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+
+    <ion-card (click)="showPagePizzaHut()">
+      <ion-item lines="none">
+        <ion-avatar slot="start">
+          <img src="../assets/images/pizzaHut.png" />
+        </ion-avatar>
+        <ion-label>
+          <h2>Pizza Hut</h2>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star" color="warning"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <ion-icon name="star-outline"></ion-icon>
+          <h3>Pizzas</h3>
+        </ion-label>
+      </ion-item>
+    </ion-card>
+  </ion-content>
+
+  <ion-footer>
+    <ion-toolbar>
+      <ion-row>
+
+        <ion-col>
+          <ion-button color="light" (click)="showPageHome()">
+            <ion-icon slot="icon-only" name="home"></ion-icon>
+          </ion-button>
+        </ion-col>
+
+        <ion-col>
+          <ion-button color="light">
+            <ion-icon slot="icon-only" name="search"></ion-icon>
+          </ion-button>
+        </ion-col>
+
+        <ion-col>
+          <ion-button color="light">
+            <ion-icon slot="icon-only" name="reader-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+
+        <ion-col>
+          <ion-button color="light">
+            <ion-icon slot="icon-only" name="person-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+
+      </ion-row>
+    </ion-toolbar>
+  </ion-footer>
+
+</ion-app>
