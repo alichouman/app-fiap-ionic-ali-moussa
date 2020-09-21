@@ -76,7 +76,7 @@
   --ion-color-light-tint: #f5f6f9;
 }
 
-@media (prefers-color-scheme: dark) {
+@media (prefers-color-scheme: light) {
   /*
    * Dark Colors
    * -------------------------------------------
@@ -150,7 +150,7 @@
   /*
    * iOS Dark Theme
    * -------------------------------------------
-   */
+   
 
   .ios body {
     --ion-background-color: #000000;
@@ -190,7 +190,7 @@
   /*
    * Material Design Dark Theme
    * -------------------------------------------
-   */
+  
 
   .md body {
     --ion-background-color: #121212;
@@ -229,4 +229,15 @@
 
     --ion-card-background: #1e1e1e;
   }
+}
+ */
+@media (prefers-color-scheme: light) {
+  ion-toolbar {
+    --background: white;
+    color: black;
+  }
+  .verticalScrollContainer {
+    background: white;
+  }
+}
 }

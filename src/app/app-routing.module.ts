@@ -186,7 +186,55 @@ const routes: Routes = [
   {
     path: 'jonny-rockets-cozinha06',
     loadChildren: () => import('./pages/jonny-rockets-cozinha06/jonny-rockets-cozinha06.module').then( m => m.JonnyRocketsCozinha06PageModule)
+  },  {
+    path: 'padaria-real-cozinha01',
+    loadChildren: () => import('./pages/padaria-real-cozinha01/padaria-real-cozinha01.module').then( m => m.PadariaRealCozinha01PageModule)
   },
+  {
+    path: 'padaria-real-cozinha02',
+    loadChildren: () => import('./pages/padaria-real-cozinha02/padaria-real-cozinha02.module').then( m => m.PadariaRealCozinha02PageModule)
+  },
+  {
+    path: 'padaria-real-cozinha03',
+    loadChildren: () => import('./pages/padaria-real-cozinha03/padaria-real-cozinha03.module').then( m => m.PadariaRealCozinha03PageModule)
+  },
+  {
+    path: 'padaria-real-cozinha04',
+    loadChildren: () => import('./pages/padaria-real-cozinha04/padaria-real-cozinha04.module').then( m => m.PadariaRealCozinha04PageModule)
+  },
+  {
+    path: 'padaria-real-cozinha05',
+    loadChildren: () => import('./pages/padaria-real-cozinha05/padaria-real-cozinha05.module').then( m => m.PadariaRealCozinha05PageModule)
+  },
+  {
+    path: 'padaria-real-cozinha06',
+    loadChildren: () => import('./pages/padaria-real-cozinha06/padaria-real-cozinha06.module').then( m => m.PadariaRealCozinha06PageModule)
+  },
+  {
+    path: 'pizza-hut-cozinha01',
+    loadChildren: () => import('./pages/pizza-hut-cozinha01/pizza-hut-cozinha01.module').then( m => m.PizzaHutCozinha01PageModule)
+  },
+  {
+    path: 'pizza-hut-cozinha02',
+    loadChildren: () => import('./pages/pizza-hut-cozinha02/pizza-hut-cozinha02.module').then( m => m.PizzaHutCozinha02PageModule)
+  },
+  {
+    path: 'pizza-hut-cozinha03',
+    loadChildren: () => import('./pages/pizza-hut-cozinha03/pizza-hut-cozinha03.module').then( m => m.PizzaHutCozinha03PageModule)
+  },
+  {
+    path: 'pizza-hut-cozinha04',
+    loadChildren: () => import('./pages/pizza-hut-cozinha04/pizza-hut-cozinha04.module').then( m => m.PizzaHutCozinha04PageModule)
+  },
+  {
+    path: 'pizza-hut-cozinha05',
+    loadChildren: () => import('./pages/pizza-hut-cozinha05/pizza-hut-cozinha05.module').then( m => m.PizzaHutCozinha05PageModule)
+  },
+  {
+    path: 'pizza-hut-cozinha06',
+    loadChildren: () => import('./pages/pizza-hut-cozinha06/pizza-hut-cozinha06.module').then( m => m.PizzaHutCozinha06PageModule)
+  },
+
  
 ];
 

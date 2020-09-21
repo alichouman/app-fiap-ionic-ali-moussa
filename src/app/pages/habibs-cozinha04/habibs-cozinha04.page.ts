@@ -22,7 +22,7 @@ export class HabibsCozinha04Page implements OnInit {
   }
 
   showHabibsCozinha03() {
-    this.navCtrl.navigateForward('habibs-cozinha04');
+    this.navCtrl.navigateForward('habibs-cozinha03');
   }
   
   showHabibsCozinha05() {

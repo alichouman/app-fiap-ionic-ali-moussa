@@ -6,79 +6,75 @@
     </ion-buttons>
   </ion-toolbar>
 </ion-header>
-
 <ion-content>
   <ion-card>
-    <img src="../assets/images/pizzaHut.png" width="200"  height="200" />
+    <img src="../assets/images/pizzaHut.png" width="200" height="200" />
     <ion-card-header>
       <ion-card-subtitle>Pizzas</ion-card-subtitle>
       <ion-card-title>Pizza Hut</ion-card-title>
     </ion-card-header>
     <ion-card-content>
-      Pizza Hut é uma cadeia de restaurantes e franquias especializada em pizzas e massas. Com sede na cidade de Plano, no Texas, a Pizza Hut é a maior cadeia de pizzarias do mundo, com quase 15 mil restaurantes e quiosques em mais de 130 países. Possui 95 restaurantes no Brasil e 91 em Portugal.
+      Pizza Hut é uma cadeia de restaurantes e franquias especializada em pizzas e massas. Com sede na cidade de Plano,
+      no Texas, a Pizza Hut é a maior cadeia de pizzarias do mundo, com quase 15 mil restaurantes e quiosques em mais de
+      130 países. Possui 95 restaurantes no Brasil e 91 em Portugal.
     </ion-card-content>
   </ion-card>
-
   <ion-grid>
     <ion-row>
       <ion-col>
-        <img src="../assets/images/pizzaHutCozinha01.png" width="200" height="200" />
+        <img src="../assets/images/pizzaHutCozinha01.png" width="200" height="200"
+          (click)="showPagePizzaHutCozinha01()" />
       </ion-col>
       <ion-col>
-        <img src="../assets/images/pizzaHutCozinha02.png" width="200" height="200" />
+        <img src="../assets/images/pizzaHutCozinha02.png" width="200" height="200"
+          (click)="showPagePizzaHutCozinha02()" />
       </ion-col>
     </ion-row>
-
     <ion-row>
       <ion-col>
-        <img src="../assets/images/pizzaHutCozinha03.png" width="200" height="200" />
+        <img src="../assets/images/pizzaHutCozinha03.png" width="200" height="200"
+          (click)="showPagePizzaHutCozinha03()" />
       </ion-col>
       <ion-col>
-        <img src="../assets/images/pizzaHutCozinha04.png" width="200" height="200" />
+        <img src="../assets/images/pizzaHutCozinha04.png" width="200" height="200"
+          (click)="showPagePizzaHutCozinha04()" />
       </ion-col>
     </ion-row>
-
     <ion-row>
       <ion-col>
-        <img src="../assets/images/pizzaHutCozinha05.png" width="200" height="200" />
+        <img src="../assets/images/pizzaHutCozinha05.png" width="200" height="200"
+          (click)="showPagePizzaHutCozinha05()" />
       </ion-col>
       <ion-col>
-        <img src="../assets/images/pizzaHutCozinha06.png" width="200" height="200" />
+        <img src="../assets/images/pizzaHutCozinha06.png" width="200" height="200"
+          (click)="showPagePizzaHutCozinha06()" />
       </ion-col>
     </ion-row>
-
   </ion-grid>
 </ion-content>
-
 <ion-footer>
   <ion-toolbar>
     <ion-row>
-
       <ion-col>
         <ion-button color="light" (click)="showPageHome()">
           <ion-icon slot="icon-only" name="home"></ion-icon>
         </ion-button>
       </ion-col>
-
       <ion-col>
         <ion-button color="light">
           <ion-icon slot="icon-only" name="search"></ion-icon>
         </ion-button>
       </ion-col>
-
       <ion-col>
         <ion-button color="light">
           <ion-icon slot="icon-only" name="reader-outline"></ion-icon>
         </ion-button>
       </ion-col>
-
       <ion-col>
         <ion-button color="light">
           <ion-icon slot="icon-only" name="person-outline"></ion-icon>
         </ion-button>
       </ion-col>
-
     </ion-row>
   </ion-toolbar>
 </ion-footer>
-

@@ -27,7 +27,7 @@ export class ChinaInBoxCozinha03Page implements OnInit {
   }
 
   showChinaInBoxCozinha04() {
-    this.navCtrl.navigateForward('china-in-box-cozinha06');
+    this.navCtrl.navigateForward('china-in-box-cozinha04');
   }
 
 }

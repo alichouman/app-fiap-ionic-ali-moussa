@@ -8,7 +8,6 @@ import { NavController } from '@ionic/angular';
 })
 export class GrilettoPage implements OnInit {
 
-
   constructor(private navCtrl: NavController) {}
 
   ngOnInit() {

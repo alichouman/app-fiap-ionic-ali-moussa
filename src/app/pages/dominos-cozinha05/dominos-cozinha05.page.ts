@@ -8,7 +8,6 @@ import { NavController } from '@ionic/angular';
 })
 export class DominosCozinha05Page implements OnInit {
 
-
   constructor(private navCtrl: NavController) {}
 
   ngOnInit() {

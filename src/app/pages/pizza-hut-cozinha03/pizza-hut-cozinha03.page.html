@@ -1,0 +1,72 @@
+<ion-header>
+  <ion-toolbar>
+    <ion-title>Real</ion-title>
+    <ion-buttons slot="start">
+      <ion-button (click)="showPagePizzaHut()">
+        <ion-icon slot="icon-only" name="caret-back-outline"></ion-icon>
+      </ion-button>
+    </ion-buttons>
+  </ion-toolbar>
+</ion-header>
+<ion-item>
+  <ion-avatar slot="start">
+    <img src="../assets/images/pizzaHut.png">
+  </ion-avatar>
+  <ion-label>
+    <h3>Pizza Hut</h3>
+    <p>Pizzas</p>
+  </ion-label>
+</ion-item>
+<ion-content>
+  <img src="../assets/images/pizzaHutCozinha03.png" />
+  <ion-card-header>
+    <ion-card-title>Cozinha Pizza Hut</ion-card-title>
+  </ion-card-header>
+  <ion-card-content>
+    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus iaculis mollis ligula sed ultrices.
+  </ion-card-content>
+  <ion-footer>
+    <ion-toolbar>
+      <ion-row>
+        <ion-col>
+          <ion-button color="light" (click)="showPizzaHutCozinha02()">
+            <ion-icon slot="icon-only" name="caret-back-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+        <ion-col></ion-col>
+        <ion-col></ion-col>
+        <ion-col>
+          <ion-button color="light" (click)="showPizzaHutCozinha04()">
+            <ion-icon slot="icon-only" name="caret-forward-outline"></ion-icon>
+          </ion-button>
+        </ion-col>
+      </ion-row>
+    </ion-toolbar>
+  </ion-footer>
+</ion-content>
+<ion-footer>
+  <ion-toolbar>
+    <ion-row>
+      <ion-col>
+        <ion-button color="light" (click)="showPageHome()">
+          <ion-icon slot="icon-only" name="home"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="light">
+          <ion-icon slot="icon-only" name="search"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="light">
+          <ion-icon slot="icon-only" name="reader-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+      <ion-col>
+        <ion-button color="light">
+          <ion-icon slot="icon-only" name="person-outline"></ion-icon>
+        </ion-button>
+      </ion-col>
+    </ion-row>
+  </ion-toolbar>
+</ion-footer>

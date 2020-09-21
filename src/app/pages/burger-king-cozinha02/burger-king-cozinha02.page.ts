@@ -13,7 +13,6 @@ export class BurgerKingCozinha02Page implements OnInit {
   ngOnInit() {
   }
 
-
   showPageHome() {
     this.navCtrl.navigateForward('home');
   }
